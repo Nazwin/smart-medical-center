@@ -1,0 +1,798 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Parens-Україна</title>
+
+	<!-- Fonts -->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined" rel="stylesheet">
+	
+	<!-- Slick -->
+	<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+	<!-- Стилі -->
+	<link rel="stylesheet" href="css/style.min.css">
+</head>
+<body class="body">
+	
+	<header class="header">
+	<div class="container">
+		<div class="header__wrapper">
+			<a href="#">
+				<picture>
+					<source srcset="img/logo-mobile.png" media="(max-width: 986px)">
+					<img class="header__logo" src="img/logo.png" alt="logo">
+				</picture>
+			</a>
+			<div class="header__search search">
+				<input class="search__input" type="text" placeholder="Пошук фахівця">
+				<button class="search__btn btn">Знайти</button>
+			</div>
+			<div class="search__btn-mob"><span class="material-icons">search</span></div>
+			<div class="header__controls">
+				<div class="lang">
+					<div class="lang__now">Укр
+						<span class="material-icons">keyboard_arrow_down</span>
+					</div>
+					<div class="lang__dropdown">
+						<a href="#" class="lang__link">Рус</a>
+						<a href="#" class="lang__link">Eng</a>
+					</div>
+				</div>
+				<button class="login-btn btn"><span class="material-icons">lock_open</span>Увійти</button>
+				<a href="#" class="menu-btn">Меню
+					<div class="menu-btn__icon"><span></span></div>
+				</a>
+			</div>
+		</div>
+	</div>
+</header>
+
+<section class="header-user hiden">
+	<div class="container">
+		<div class="header-user__wrapper">
+			<div class="header-user__img"><img src="img/logo-clinic.png" alt="" class="header-user__logo"></div>
+			<div class="header-user__menu menu-user">
+				<ul class="menu-user__list">
+					<li><a href="#" class="menu-user__link">Про клініку</a></li>
+					<li><a href="#" class="menu-user__link">Спеціальності</a></li>
+					<li><a href="#" class="menu-user__link">Послуги</a></li>
+					<li><a href="#" class="menu-user__link">Лікарі</a></li>
+					<li><a href="#" class="menu-user__link">Відгуки</a></li>
+					<li><a href="#" class="menu-user__link">Новини</a></li>
+				</ul>
+			</div>
+			<div class="header-user__call">
+				<div class="header-user__phone"><span class="material-icons-outlined">call</span>+38 (050) 137 - 60 - 41</div>
+				<button class="header-user__btn btn">Передзвоніть мені</button>
+			</div>
+		</div>
+	</div>
+</section>
+	
+	<div class="breadcrumbs">
+		<div class="container">
+			<div class="breadcrumbs__list">
+				<li><a href="#" class="breadcrumbs__item">Головна</a></li>
+				<li><a href="#" class="breadcrumbs__item">Клініки</a></li>
+				<li><span class="breadcrumbs__item breadcrumbs__item-now">Smart Medical Center</span></li>
+			</div>
+		</div>
+	</div>
+
+	<section class="main-info">
+		<div class="container">
+			<div class="main-info__wrapper">
+				<div class="main-info__left">
+					<img src="img/logo-clinic.png" alt="logo-clinic" class="logo-clinic">
+					<div class="main-info__header">
+						<h1 class="main-info__title">Parens-Україна</h1>
+						<span class="main-info__rating"><span class="material-icons">grade</span>4,8</span>
+					</div>
+					<div class="main-info__subtitle">Центр репродукції</div>
+					<div class="main-info__address"><span class="material-icons-outlined">place</span>м. Київ, вул. Михайла Максимовича (Трутенка), 3, Голосіївський район</div>
+					<div class="phones-block">
+						<div class="main-info__phone">
+							<span class="material-icons-outlined">call</span>
+							<a href="tel:+38 (050) 137 - 60 - 41">+38 (050) 137 - 60 - 41</a>
+							<span class="material-icons open-modal-phones">arrow_drop_down_circle</span>
+						</div>
+						<div class="modal-phones hidden">
+							<div class="modal-phones__header">
+								<div class="modal-phones__title">Контактні телефони</div>
+								<span class="material-icons close-modal-phones">close</span>
+							</div>
+							<div class="modal-phones__body">
+								<ul class="modal-phones__list">
+									<li><a href="tel:+38 (050) 137 - 60 - 41" class="modal-phones__number">+38 (050) 137 - 60 - 41</a></li>
+									<li><a href="tel:+38 (044) 222 - 16 - 19" class="modal-phones__number">+38 (044) 222 - 16 - 19</a></li>
+									<li><a href="tel:+38 (063) 985 - 55 - 55" class="modal-phones__number">+38 (063) 985 - 55 - 55</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="main-info__website"><span class="material-icons">language</span><a href="#">smartmedicalcenter.ua</a></div>
+					<button class="main-info__call">Передзвоніть мені</button>
+				</div>
+				<div class="main-info__right">
+					<div class="main-info__photos">
+						<img class="btn-gallery-preview" src="img/photo-btn.jpg" alt="">
+						<a class="gallery-link" href="#">
+							<div class="main-info__name"><span class="material-icons-outlined">perm_media</span>Переглянути <span>12</span> Фото</div>
+						</a>
+					</div>
+					<div class="main-info__gmap">
+						<img class="btn-map-preview" src="img/preview-map.png" alt="">
+						<a href="#" class="map-link">
+							<div class="main-info__name"><span class="material-icons-outlined">map</span>Клініка на мапі</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="about">
+		<div class="container">
+			<div class="about__wrapper">
+				<div class="about__info">
+					<div class="about__title">Про клініку</div>
+					<div class="about__text">
+						<p>Основна спеціалізація клініки Flexis це лікування і реабілітація пацієнтів з ревматологічними, неврологічними і травматологічними ушкодженнями опорно-рухового апарату.</p>
+						<p>Ми створили велику і ультрасучасну апаратну базу, яка дозволяє проводити комп'ютерне витягування, імпульсно- хвильову терапію, застосовувати для лікування лазерні технології лікування, миостимуляцию, магніторезонансну терапію, внутрішньосуглобові ін'єкції, алопатичну терапію.</p>
+						<p>Сучасні технології в комплексі з апаратурою і лікарським професіоналізмом дозволяють повернути людині колишню активність і інтерес до діяльності в тих життєвих сферах, які здавалися вже безповоротно втраченими.</p>
+					</div>
+					<a href="#" class="about__read-more more-link">Читати повністю</a>
+				</div>
+				<div class="about__schedule">
+					<div class="about__title">Графік роботи</div>
+					<ul class="schedule__list">
+						<li class="schedule__item"><span>Понеділок:</span><span>8:30-19:00</span></li>
+						<li class="schedule__item"><span>Вівторок:</span><span>8:30-19:00</span></li>
+						<li class="schedule__item"><span>Середа:</span><span>8:30-19:00</span></li>
+						<li class="schedule__item"><span>Четвер:</span><span>8:30-19:00</span></li>
+						<li class="schedule__item"><span>П'ятниця:</span><span>8:30-19:00</span></li>
+						<li class="schedule__item"><span>Субота:</span><span>8:30-19:00</span></li>
+						<li class="schedule__item"><span>Неділя:</span><span>Вихідний</span></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="specialties">
+		<div class="container">
+			<div class="specialties__wrapper">
+				<div class="specialties__header">
+					<h2 class="specialties__title">Спеціальності (<span>42</span>)</h2>
+					<a class="specialties__more-btn more-btn" href="#">Показати всі</a>
+				</div>
+				<ul class="specialties__list">
+					<li><a href="#" class="specialties__item">акушер-гінеколог <span>(16)</span></a></li>
+					<li><a href="#" class="specialties__item">алерголог <span>(7)</span></a></li>
+					<li><a href="#" class="specialties__item">алерголог дитячий <span>(1)</span></a></li>
+					<li><a href="#" class="specialties__item">генетик <span>(12)</span></a></li>
+					<li><a href="#" class="specialties__item">гематолог <span>(1)</span></a></li>
+					<li><a href="#" class="specialties__item">гінеколог-онколог <span>(3)</span></a></li>
+					<li><a href="#" class="specialties__item">вірусолог <span>(3)</span></a></li>
+					<li><a href="#" class="specialties__item">Токсиколог <span>(11)</span></a></li>
+					<li><a href="#" class="specialties__item">хірург-онколог <span>(2)</span></a></li>
+				</ul>
+			</div>
+		</div>
+	</section>
+
+	<section class="services">
+		<div class="container">
+			<div class="services__wrapper">
+				<div class="services__header">
+					<h2 class="services__title">Послуги (<span>28</span>)</h2>
+					<a href="#" class="services__link more-btn">Показати всі</a>
+				</div>
+				<div class="services__slider">
+					<button class="services__preview services__controls"><span class="material-icons">arrow_back</span></button>
+					<div class="services__list">
+						<div class="services__item item-s">
+							<h3 class="item-s__title">Проведение одночасового сеанса психотерапии.</h3>
+							<div class="item-s__description">Сеанс психотерапии</div>
+							<div class="item-s__info">
+								<div class="item-s__time">
+									<span class="material-icons">query_builder</span>
+									1 год 10 хв
+								</div>
+								<div class="item-s__price">
+									<span class="material-icons">payment</span>
+									1 200 грн
+								</div>
+							</div>
+						</div>
+						<div class="services__item item-s">
+							<h3 class="item-s__title">Проведение одночасового сеанса психотерапии.</h3>
+							<div class="item-s__description">Сеанс психотерапии</div>
+							<div class="item-s__info">
+								<div class="item-s__time">
+									<span class="material-icons">query_builder</span>
+									1 год 10 хв
+								</div>
+								<div class="item-s__price">
+									<span class="material-icons">payment</span>
+									1 200 грн
+								</div>
+							</div>
+						</div>
+						<div class="services__item item-s">
+							<h3 class="item-s__title">Проведение одночасового сеанса психотерапии.</h3>
+							<div class="item-s__description">Сеанс психотерапии</div>
+							<div class="item-s__info">
+								<div class="item-s__time">
+									<span class="material-icons">query_builder</span>
+									1 год 10 хв
+								</div>
+								<div class="item-s__price">
+									<span class="material-icons">payment</span>
+									1 200 грн
+								</div>
+							</div>
+						</div>
+						<div class="services__item item-s">
+							<h3 class="item-s__title">Проведение одночасового сеанса психотерапии.</h3>
+							<div class="item-s__description">Сеанс психотерапии</div>
+							<div class="item-s__info">
+								<div class="item-s__time">
+									<span class="material-icons">query_builder</span>
+									1 год 10 хв
+								</div>
+								<div class="item-s__price">
+									<span class="material-icons">payment</span>
+									1 200 грн
+								</div>
+							</div>
+						</div>
+						<div class="services__item item-s">
+							<h3 class="item-s__title">Проведение одночасового сеанса психотерапии.</h3>
+							<div class="item-s__description">Сеанс психотерапии</div>
+							<div class="item-s__info">
+								<div class="item-s__time">
+									<span class="material-icons">query_builder</span>
+									1 год 10 хв
+								</div>
+								<div class="item-s__price">
+									<span class="material-icons">payment</span>
+									1 200 грн
+								</div>
+							</div>
+						</div>
+						<div class="services__item item-s">
+							<h3 class="item-s__title">Проведение одночасового сеанса психотерапии.</h3>
+							<div class="item-s__description">Сеанс психотерапии</div>
+							<div class="item-s__info">
+								<div class="item-s__time">
+									<span class="material-icons">query_builder</span>
+									1 год 10 хв
+								</div>
+								<div class="item-s__price">
+									<span class="material-icons">payment</span>
+									1 200 грн
+								</div>
+							</div>
+						</div>
+					</div>
+					<button class="services__next services__controls"><span class="material-icons">arrow_forward</span></button>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="doctors">
+		<div class="container">
+			<div class="doctors__wrapper">
+				<div class="doctors__header">
+					<h2 class="doctors__title">Лікарі (<span>28</span>)</h2>
+					<a href="#" class="doctors__link more-btn">Показати всі</a>
+				</div>
+				<div class="doctors__slider">
+					<button class="doctors__preview services__controls"><span class="material-icons">arrow_back</span></button>
+					<div class="doctors__list">
+
+						<div class="doctors__item item-d">
+							<div class="doctors__preview__link">
+								<div class="item-d__header">
+									<div class="item-d__header-l">
+										<div class="item-d__pic">
+											<img src="img/doctor_photo.jpg" alt="" class="item-d__photo">
+										</div>
+										<div class="item-d__status">Онлайн</div>
+									</div>
+									<div class="item-d__header-r">
+										<div class="item-d__name">Бойко Олександр Володимирович</div>
+										<div class="item-d__post">Інфекціоніст, Лікар-ортопед, Травматолог дитячий</div>
+									</div>
+								</div>
+								<div class="item-d__info">
+									<div class="item-d__stars">
+										<p class="item-d__stars-title">Рейтинг</p>
+										<div class="item-d__stars-value"><span class="material-icons">grade</span>4,6</div>
+									</div>
+									<div class="item-d__response">
+										<p class="item-d__response-title">Відгуків</p>
+										<div class="item-d__response-value"><span class="material-icons-outlined">comment</span>12</div>
+									</div>
+									<div class="item-d__exp">
+										<p class="item-d__exp-title">Досвід (років)</p>
+										<div class="item-d__exp-value"><span class="material-icons">query_builder</span>10</div>
+									</div>
+								</div>
+								<div class="item-d__footer">
+									<div class="item-d__footer-subtitle">Адреса</div>
+									<div class="item-d__footer-text">м. Київ, вул. Михайла Максимовича (Трутенка), 3, Голосіївський район</div>
+								</div>
+							</div>
+							<div class="doctors__preview__hide">
+								<div class="item-d__footer-subtitle">Послуги та ціни</div>
+								<div class="item-d__footer-text">Консультация - <b>610 грн</b><br />первинна консультація - <b>150</b> грн<br />Консультація гінеколога - <b>Безкоштовно</b><br />Комплексне обстеження стану здоров'я - <b>100 грн</b></div>
+								<a href="#" class="item-d__btn">Записатись</a>
+							</div>
+						</div>
+						<div class="doctors__item item-d">
+							<div class="doctors__preview__link">
+								<div class="item-d__header">
+									<div class="item-d__header-l">
+										<div class="item-d__pic">
+											<img src="img/doctor_photo.jpg" alt="" class="item-d__photo">
+										</div>
+										<div class="item-d__status status-offline">19 годин тому</div>
+									</div>
+									<div class="item-d__header-r">
+										<div class="item-d__name">Бойко Олександр Володимирович</div>
+										<div class="item-d__post">Інфекціоніст, Лікар-ортопед, Травматолог дитячий</div>
+									</div>
+								</div>
+								<div class="item-d__info">
+									<div class="item-d__stars">
+										<p class="item-d__stars-title">Рейтинг</p>
+										<div class="item-d__stars-value"><span class="material-icons">grade</span>4,6</div>
+									</div>
+									<div class="item-d__response">
+										<p class="item-d__response-title">Відгуків</p>
+										<div class="item-d__response-value"><span class="material-icons-outlined">comment</span>12</div>
+									</div>
+									<div class="item-d__exp">
+										<p class="item-d__exp-title">Досвід (років)</p>
+										<div class="item-d__exp-value"><span class="material-icons">query_builder</span>10</div>
+									</div>
+								</div>
+								<div class="item-d__footer">
+									<div class="item-d__footer-subtitle">Адреса</div>
+									<div class="item-d__footer-text">м. Київ, вул. Михайла Максимовича (Трутенка), 3, Голосіївський район</div>
+								</div>
+							</div>
+							<div class="doctors__preview__hide">
+								<div class="item-d__footer-subtitle">Послуги та ціни</div>
+								<div class="item-d__footer-text">Консультация - <b>610 грн</b><br />первинна консультація - <b>150</b> грн<br />Консультація гінеколога - <b>Безкоштовно</b><br />Комплексне обстеження стану здоров'я - <b>100 грн</b></div>
+								<a href="#" class="item-d__btn">Записатись</a>
+							</div>
+						</div>
+						<div class="doctors__item item-d">
+							<div class="doctors__preview__link">
+								<div class="item-d__header">
+									<div class="item-d__header-l">
+										<div class="item-d__pic">
+											<img src="img/doctor_photo.jpg" alt="" class="item-d__photo">
+										</div>
+										<div class="item-d__status status-offline">19 годин тому</div>
+									</div>
+									<div class="item-d__header-r">
+										<div class="item-d__name">Бойко Олександр Володимирович</div>
+										<div class="item-d__post">Інфекціоніст, Лікар-ортопед, Травматолог дитячий</div>
+									</div>
+								</div>
+								<div class="item-d__info">
+									<div class="item-d__stars">
+										<p class="item-d__stars-title">Рейтинг</p>
+										<div class="item-d__stars-value"><span class="material-icons">grade</span>4,6</div>
+									</div>
+									<div class="item-d__response">
+										<p class="item-d__response-title">Відгуків</p>
+										<div class="item-d__response-value"><span class="material-icons-outlined">comment</span>12</div>
+									</div>
+									<div class="item-d__exp">
+										<p class="item-d__exp-title">Досвід (років)</p>
+										<div class="item-d__exp-value"><span class="material-icons">query_builder</span>10</div>
+									</div>
+								</div>
+								<div class="item-d__footer">
+									<div class="item-d__footer-subtitle">Адреса</div>
+									<div class="item-d__footer-text">м. Київ, вул. Михайла Максимовича (Трутенка), 3, Голосіївський район</div>
+								</div>
+							</div>
+							<div class="doctors__preview__hide">
+								<div class="item-d__footer-subtitle">Послуги та ціни</div>
+								<div class="item-d__footer-text">Консультация - <b>610 грн</b><br />первинна консультація - <b>150</b> грн<br />Консультація гінеколога - <b>Безкоштовно</b><br />Комплексне обстеження стану здоров'я - <b>100 грн</b></div>
+								<a href="#" class="item-d__btn">Записатись</a>
+							</div>
+						</div>
+						<div class="doctors__item item-d">
+							<div class="doctors__preview__link">
+								<div class="item-d__header">
+									<div class="item-d__header-l">
+										<div class="item-d__pic">
+											<img src="img/doctor_photo.jpg" alt="" class="item-d__photo">
+										</div>
+										<div class="item-d__status status-offline">19 годин тому</div>
+									</div>
+									<div class="item-d__header-r">
+										<div class="item-d__name">Бойко Олександр Володимирович</div>
+										<div class="item-d__post">Інфекціоніст, Лікар-ортопед, Травматолог дитячий</div>
+									</div>
+								</div>
+								<div class="item-d__info">
+									<div class="item-d__stars">
+										<p class="item-d__stars-title">Рейтинг</p>
+										<div class="item-d__stars-value"><span class="material-icons">grade</span>4,6</div>
+									</div>
+									<div class="item-d__response">
+										<p class="item-d__response-title">Відгуків</p>
+										<div class="item-d__response-value"><span class="material-icons-outlined">comment</span>12</div>
+									</div>
+									<div class="item-d__exp">
+										<p class="item-d__exp-title">Досвід (років)</p>
+										<div class="item-d__exp-value"><span class="material-icons">query_builder</span>10</div>
+									</div>
+								</div>
+								<div class="item-d__footer">
+									<div class="item-d__footer-subtitle">Адреса</div>
+									<div class="item-d__footer-text">м. Київ, вул. Михайла Максимовича (Трутенка), 3, Голосіївський район</div>
+								</div>
+							</div>
+							<div class="doctors__preview__hide">
+								<div class="item-d__footer-subtitle">Послуги та ціни</div>
+								<div class="item-d__footer-text">Консультация - <b>610 грн</b><br />первинна консультація - <b>150</b> грн<br />Консультація гінеколога - <b>Безкоштовно</b><br />Комплексне обстеження стану здоров'я - <b>100 грн</b></div>
+								<a href="#" class="item-d__btn">Записатись</a>
+							</div>
+						</div>
+						<div class="doctors__item item-d">
+							<div class="doctors__preview__link">
+								<div class="item-d__header">
+									<div class="item-d__header-l">
+										<div class="item-d__pic">
+											<img src="img/doctor_photo.jpg" alt="" class="item-d__photo">
+										</div>
+										<div class="item-d__status status-offline">19 годин тому</div>
+									</div>
+									<div class="item-d__header-r">
+										<div class="item-d__name">Бойко Олександр Володимирович</div>
+										<div class="item-d__post">Інфекціоніст, Лікар-ортопед, Травматолог дитячий</div>
+									</div>
+								</div>
+								<div class="item-d__info">
+									<div class="item-d__stars">
+										<p class="item-d__stars-title">Рейтинг</p>
+										<div class="item-d__stars-value"><span class="material-icons">grade</span>4,6</div>
+									</div>
+									<div class="item-d__response">
+										<p class="item-d__response-title">Відгуків</p>
+										<div class="item-d__response-value"><span class="material-icons-outlined">comment</span>12</div>
+									</div>
+									<div class="item-d__exp">
+										<p class="item-d__exp-title">Досвід (років)</p>
+										<div class="item-d__exp-value"><span class="material-icons">query_builder</span>10</div>
+									</div>
+								</div>
+								<div class="item-d__footer">
+									<div class="item-d__footer-subtitle">Адреса</div>
+									<div class="item-d__footer-text">м. Київ, вул. Михайла Максимовича (Трутенка), 3, Голосіївський район</div>
+								</div>
+							</div>
+							<div class="doctors__preview__hide">
+								<div class="item-d__footer-subtitle">Послуги та ціни</div>
+								<div class="item-d__footer-text">Консультация - <b>610 грн</b><br />первинна консультація - <b>150</b> грн<br />Консультація гінеколога - <b>Безкоштовно</b><br />Комплексне обстеження стану здоров'я - <b>100 грн</b></div>
+								<a href="#" class="item-d__btn">Записатись</a>
+							</div>
+						</div>
+
+					</div>
+					<button class="doctors__next services__controls"><span class="material-icons">arrow_forward</span></button>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="reviews">
+		<div class="container">
+			<div class="reviews__wrapper">
+				<h2 class="reviews__title">Відгуки (<span>14</span>)</h2>
+				<div class="reviews__block">
+					<div class="reviews__item item-rev">
+						<div class="item-rev__header">
+							<div class="item-rev__pic"><img src="img/doctor_photo.jpg" alt="" class="item-rev__photo"></div>
+							<div class="item-rev__author">
+								<div class="item-rev__name">Бойко Олександр Володимирович</div>
+								<div class="item-rev__status rev__status-pos">Позитивний</div>
+							</div>
+						</div>
+						<div class="item-rev__body">
+							<div class="item-rev__date">17.06.2020
+								<div class="item-rev__time">18:45</div>
+							</div>
+							<div class="item-rev__text">
+								«Деякі з цих продуктів виглядають дуже заманливо, - зазначає Джонсон-Арбор. - Вони пофарбовані в яскраві кольори і можуть нагадувати сік або інші продукти, з якими дитина звикла грати 
+							</div>
+						</div>
+					</div>
+					<div class="reviews__item item-rev">
+						<div class="item-rev__header">
+							<div class="item-rev__pic"><img src="img/doctor_photo.jpg" alt="" class="item-rev__photo"></div>
+							<div class="item-rev__author">
+								<div class="item-rev__name">Бойко Олександр Володимирович</div>
+								<div class="item-rev__status rev__status-pos">Позитивний</div>
+							</div>
+						</div>
+						<div class="item-rev__body">
+							<div class="item-rev__date">17.06.2020
+								<div class="item-rev__time">18:45</div>
+							</div>
+							<div class="item-rev__text">
+								«Деякі з цих продуктів виглядають дуже заманливо, - зазначає Джонсон-Арбор. - Вони пофарбовані в яскраві кольори і можуть нагадувати сік або інші продукти, з якими дитина звикла грати 
+							</div>
+						</div>
+					</div>
+					<div class="reviews__item item-rev">
+						<div class="item-rev__header">
+							<div class="item-rev__pic"><img src="img/doctor_photo.jpg" alt="" class="item-rev__photo"></div>
+							<div class="item-rev__author">
+								<div class="item-rev__name">Бойко Олександр Володимирович</div>
+								<div class="item-rev__status rev__status-neg">Негативний</div>
+							</div>
+						</div>
+						<div class="item-rev__body">
+							<div class="item-rev__date">17.06.2020
+								<div class="item-rev__time">18:45</div>
+							</div>
+							<div class="item-rev__text">
+								«Деякі з цих продуктів виглядають дуже заманливо, - зазначає Джонсон-Арбор. - Вони пофарбовані в яскраві кольори і можуть нагадувати сік або інші продукти, з якими дитина звикла грати 
+							</div>
+						</div>
+					</div>
+				</div>
+				<a href="#" class="item-rev__more more-link">Показати ще</a>
+			</div>
+		</div>
+	</section>
+
+	<section class="news">
+		<div class="container">
+			<div class="news__wrapper">
+				<h2 class="news__title">Новини клініки (<span>25</span>)</h2>
+				<div class="news__block">
+					<div class="news__item item-new">
+						<a href="#" class="item-new__link-block">
+							<div class="item-new__pic">
+								<img src="img/preview-item-new-1.jpg" alt="">
+							</div>
+							<div href="#" class="item-new__link-title">Чи можна буде плавати в морі або басейні під час пандемії?</div>
+						</a>
+						<div class="item-new__info">
+							<div class="item-new__date">
+								Сьогодні<span class="item-new__time">12:48</span>
+							</div>
+							<div class="item-new__stat">
+								<span class="item-new__views">
+									<span class="material-icons-outlined">
+										remove_red_eye
+									</span>345</span>
+									<span class="item-new__com"><span class="material-icons-outlined">
+										comment
+									</span>4</span>
+							</div>
+						</div>
+					</div>
+					<div class="news__item item-new">
+						<a href="#" class="item-new__link-block">
+							<div class="item-new__pic">
+								<img src="img/preview-item-new-2.jpg" alt="">
+							</div>
+							<div href="#" class="item-new__link-title">Майже 30 тисяч українців захворіло ГРВІ минулого тижня</div>
+						</a>
+						<div class="item-new__info">
+							<div class="item-new__date">
+								9 днів тому<span class="item-new__time"></span>
+							</div>
+							<div class="item-new__stat">
+								<span class="item-new__views">
+									<span class="material-icons-outlined">
+										remove_red_eye
+									</span>345</span>
+									<span class="item-new__com"><span class="material-icons-outlined">
+										comment
+									</span>4</span>
+							</div>
+						</div>
+					</div>
+					<div class="news__item item-new">
+						<a href="#" class="item-new__link-block">
+							<div class="item-new__pic">
+								<img src="img/preview-item-new-3.jpg" alt="">
+							</div>
+							<div href="#" class="item-new__link-title">Препарат «Магне-В6» заборонили в Україні</div>
+						</a>
+						<div class="item-new__info">
+							<div class="item-new__date">
+								22.10.2018<span class="item-new__time">10:42</span>
+							</div>
+							<div class="item-new__stat">
+								<span class="item-new__views">
+									<span class="material-icons-outlined">
+										remove_red_eye
+									</span>345</span>
+									<span class="item-new__com"><span class="material-icons-outlined">
+										comment
+									</span>4</span>
+							</div>
+						</div>
+					</div>
+					<div class="news__item item-new">
+						<a href="#" class="item-new__link-block">
+							<div class="item-new__pic">
+								<img src="img/preview-item-new-4.jpg" alt="">
+							</div>
+							<div href="#" class="item-new__link-title">Кількість отруєнь дезінфікуючими засобами серед дітей збільшилася під час пандемії</div>
+						</a>
+						<div class="item-new__info">
+							<div class="item-new__date">
+								22.10.2018<span class="item-new__time">10:42</span>
+							</div>
+							<div class="item-new__stat">
+								<span class="item-new__views">
+									<span class="material-icons-outlined">
+										remove_red_eye
+									</span>345</span>
+									<span class="item-new__com"><span class="material-icons-outlined">
+										comment
+									</span>4</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<a href="#" class="news__link more-link">Показати ще</a>
+			</div>
+		</div>
+	</section>
+
+	<!-- Modal -->
+	<section class="modal-map modal-bg hidden">
+		<div class="container">
+			<div class="modal-map__window">
+				<div class="modal-map__close"><span class="material-icons">close</span></div>
+				<div class="modal-map__gmap">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2543.6089910143914!2d30.477345515729272!3d50.392487179467366!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4c8dbfbfc38ab%3A0x723d4a61870fd6de!2z0LLRg9C70LjRhtGPINCc0LjRhdCw0LnQu9CwINCc0LDQutGB0LjQvNC-0LLQuNGH0LAsIDMsINCa0LjRl9CyLCAwMjAwMA!5e0!3m2!1suk!2sua!4v1595284640283!5m2!1suk!2sua" width="670" height="800" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+				</div>
+				<div class="modal-map__data map-data">
+					<div class="map-data__header">
+						<div class="map-data__pic">
+							<img src="img/photo-btn.jpg" alt="">
+						</div>
+						<div class="map-data__titles">
+							<h4 class="map-data__title">Flexis: Рух без болі</h4>
+							<div class="map-data__subtitle">Медичний центр</div>
+						</div>
+					</div>
+					<div class="map-data__info">
+						<div class="map-data__stars">
+							<p class="map-data__stars-title">Рейтинг</p>
+							<div class="map-data__stars-value"><span class="material-icons">grade</span>4,6</div>
+						</div>
+						<div class="map-data__doctors">
+							<p class="map-data__doctors-title">Лікарів</p>
+							<div class="map-data__doctors-value"><span class="material-icons-outlined">people</span>12</div>
+						</div>
+						<div class="map-data__serv">
+							<p class="map-data__serv-title">Послуг</p>
+							<div class="map-data__serv-value"><span class="material-icons-outlined">money</span>10</div>
+						</div>
+					</div>
+					<div class="map-data__footer">
+						<div class="map-data__f-tit">Адреса</div>
+						<div class="map-data__f-text">м. Київ, вул. Михайла Максимовича (Трутенка), 3, Голосіївський район
+						</div>
+						<div class="map-data__f-tit">Графік роботи</div>
+						<div class="map-data__f-text schedule">
+							<ul class="schedule__list">
+								<li class="schedule__day">Понеділок:<span>8:30-19:00</span></li>
+								<li class="schedule__day">Вівторок:<span>8:30-19:00</span></li>
+								<li class="schedule__day">Середа:<span>8:30-19:00</span></li>
+								<li class="schedule__day">Четвер:<span>8:30-19:00</span></li>
+								<li class="schedule__day">П'ятниця:<span>8:30-19:00</span></li>
+								<li class="schedule__day">Субота:<span>8:30-19:00</span></li>
+								<li class="schedule__day">Неділя:<span>8:30-19:00</span></li>
+							</ul>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<div class="footer-app">
+	<div class="container">
+		<div class="footer-app__wrapper">
+			<div class="footer-app__left">
+				<img src="img/footer__img-mob.png" alt="" class="footer-app__img">
+			</div>
+			<div class="footer-app__title">Завантажуйте наш мобільний додаток</div>
+			<div class="footer-app__links">
+				<a href="#" class="footer-app__link">
+					<img src="img/button-appstore-ua.png" alt="">
+				</a>
+				<a href="#" class="footer-app__link">
+					<img src="img/button-google-play-ua.png" alt="">
+				</a>
+			</div>
+		</div>
+	</div>
+</div>
+
+<footer class="footer">
+	<div class="container">
+		<div class="footer__body">
+			<div class="footer__about about-f">
+				<h4 class="footer__title">Про компанію</h4>
+				<div class="about-f__text">MoniHeal - це унікальна система, яка дає людині чітку і достовірну уяву про стан свого здоров'я та має на меті попередити користувача про можливі ускладнення.  </div>
+				<div class="about-f__email"><span class="material-icons-outlined">mail</span><a href="mailto:helpmoniheal@gmail.com">helpmoniheal@gmail.com</a></div>
+				<div class="about-f__phone"><span class="material-icons-outlined">perm_phone_msg</span><a href="tel: +38 (097) 773 - 73 -73" class="">+38 (097) 773 - 73 -73</a></div>
+			</div>
+			<div class="footer__center">
+				<div class="footer__nav nav-f">
+					<h4 class="footer__title">Розділи</h4>
+					<ul class="nav-f__list">
+						<li><a href="#" class="nav-f__link">Про нас</a></li>
+						<li><a href="#" class="nav-f__link">Користувачам</a></li>
+						<li><a href="#" class="nav-f__link">Лікарям</a></li>
+						<li><a href="#" class="nav-f__link">Клінікам</a></li>
+						<li><a href="#" class="nav-f__link">Новини</a></li>
+						<li><a href="#" class="nav-f__link">Знайти фахівця</a></li>
+						<li><a href="#" class="nav-f__link">Клініки</a></li>
+					</ul>
+				</div>
+				<div class="footer__info info-f">
+					<h4 class="footer__title">Ресурси</h4>
+					<ul class="info-f__list">
+						<li><a href="#" class="info-f__link">Захист даних</a></li>
+						<li><a href="#" class="info-f__link">Політика приватності</a></li>
+						<li><a href="#" class="info-f__link">Правила користування</a></li>
+						<li><a href="#" class="info-f__link">Довідковий центр</a></li>
+						<li><a href="#" class="info-f__link">Зворотній звязок</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="footer__sm sm-f">
+				<h4 class="footer__title">Ми в соцмережах</h4>
+				<div class="sm-f__text">
+				Підписуйтесь на наші соцмережі! Будьте в курсі останніх новин, акцій, заходів.</div>
+				<ul class="sm-f__links">
+					<li><a href="#" class="sm-f__link"><img src="img/icons8-facebook-circled-96 2.png" alt=""></a></li>
+					<li><a href="#" class="sm-f__link"><img src="img/icons8-instagram-240 2.png" alt=""></a></li>
+				</ul>
+			</div>			
+		</div>
+		<div class="footer__end end-f">
+			<div class="end-f__left">
+				<a href="#" class="end-f__link">
+					<img src="img/logo-footer.png" alt="">
+				</a>
+				<div class="end-f__copy">© 2020 <span>MoniHeal</span></div>
+			</div>
+			<div class="end-f__right">
+				<img src="img/master_card_logo.png" alt="" class="end-f__mc">
+				<img src="img/Visa_2014_logo_detail.png" alt="" class="end-f__visa">
+			</div>
+		</div>
+	</div>
+</footer>
+
+	<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+	<script src="js/script.min.js"></script>
+</body>
+</html>
