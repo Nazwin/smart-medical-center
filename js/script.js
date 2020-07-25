@@ -10,15 +10,34 @@ $('.doctors__list').slick({
 	prevArrow: '.doctors__preview',
 	nextArrow: '.doctors__next',
 	responsive: [
+	{
+    	breakpoint: 425,
+    	settings: {
+    		slidesToShow: 1,
+    		slidesToScroll: 1,
+    		infinite: false,
+    		dots: false
+    	}
+    },
     {
-      breakpoint: 1024,
+      breakpoint: 768,
       settings: {
-        slidesToShow: 3,
-        slidesToScroll: 3,
+        slidesToShow: 2,
+        slidesToScroll: 2,
         infinite: false,
         dots: false
       }
-    }]
+    },
+    {
+    	breakpoint: 1080,
+    	settings: {
+    		slidesToShow: 3,
+    		slidesToScroll: 3,
+    		infinite: false,
+    		dots: false
+    	}
+    }
+    ]
 });
 
 // hover на .doctors__item ==============================================
@@ -54,6 +73,15 @@ $('.services__list').slick({
 	prevArrow: '.services__preview',
 	nextArrow: '.services__next',
 	responsive: [
+	{
+    	breakpoint: 425,
+    	settings: {
+    		slidesToShow: 1,
+    		slidesToScroll: 1,
+    		infinite: false,
+    		dots: false
+    	}
+    },
     {
       breakpoint: 768,
       settings: {
@@ -64,7 +92,7 @@ $('.services__list').slick({
       }
     },
     {
-    	breakpoint: 1024,
+    	breakpoint: 1080,
     	settings: {
     		slidesToShow: 3,
     		slidesToScroll: 3,
